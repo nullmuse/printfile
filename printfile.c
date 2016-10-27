@@ -70,6 +70,7 @@ printf("_IO_read_end: %x\n",&fp->_IO_read_end);
 printf("_IO_read_base: %x\n",&fp->_IO_read_base);
 printf("_IO_write_ptr: %x\n",&fp->_IO_write_ptr);
 printf("_IO_write_end: %x\n",&fp->_IO_write_end);
+printf("_IO_write_base: %x\n",&fp->_IO_write_base);
 printf("_IO_buf_base: %x\n",&fp->_IO_buf_base);
 printf("_IO_buf_end: %x\n",&fp->_IO_buf_end);
 printf("_IO_save_base: %x\n",&fp->_IO_save_base);
