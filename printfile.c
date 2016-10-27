@@ -91,11 +91,11 @@ argc--;
 
 FILE *dumb; 
 
-for(;argc > 0;argc--) { 
+for(;argc > 0;--argc) { 
 
 dumb = open(argv[argc],O_RDONLY);
 printf("\n\n=========================\n");
-printf("FILE struct for %s\n",argv[1]);
+printf("FILE struct for %s\n",argv[argc]);
 print_file_struct(dumb);
 printf("=========================\n");
 //print_file_struct(dumb1);
